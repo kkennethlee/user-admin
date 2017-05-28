@@ -1,10 +1,10 @@
 import { Component, OnInit, ViewChild }        from '@angular/core';
-import { Router, ActivatedRoute }   from '@angular/router';
-import { Subscription } from "rxjs";
+import { Router, ActivatedRoute }              from '@angular/router';
+import { Subscription }                        from "rxjs";
 
-import { MessageService }   from '../shared/message.service';
-import { UsersService }             from '../shared/users.service';
-import { User }                     from "../shared/models/user.model";
+import { MessageService }                      from '../shared/message.service';
+import { UsersService }                        from '../shared/users.service';
+import { User }                                from "../shared/models/user.model";
 
 import { AlertComponent,
          ModalDirective } from 'ngx-bootstrap';

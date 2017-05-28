@@ -31,17 +31,22 @@
                         User Name
                         <i *ngIf="sortCol == 'name'" class="fa" [ngClass]="{'fa-sort-asc': (sortDir == 'asc'), 'fa-sort-desc': (sortDir == 'desc')}" aria-hidden="true"></i>
                     </th> 
-                    <th>
+                    <th (click)="sort('role')">
                         Role
+                        <i *ngIf="sortCol == 'role'" class="fa" [ngClass]="{'fa-sort-asc': (sortDir == 'asc'), 'fa-sort-desc': (sortDir == 'desc')}" aria-hidden="true"></i>
                     </th> 
-                    <th>
+                    <th (click)="sort('updated_at')">
                         Last Login
+                        <i *ngIf="sortCol == 'updated_at'" class="fa" [ngClass]="{'fa-sort-asc': (sortDir == 'asc'), 'fa-sort-desc': (sortDir == 'desc')}" aria-hidden="true"></i>
                     </th> 
-                    <th>
+                    <th (click)="sort('created_at')">
                         Joined
-                    </th> 
-                    <th>Edit</th> 
-                    <th>Delete</th> 
+                        <i *ngIf="sortCol == 'created_at'" class="fa" [ngClass]="{'fa-sort-asc': (sortDir == 'asc'), 'fa-sort-desc': (sortDir == 'desc')}" aria-hidden="true"></i>
+                    </th>
+                    <!--Edit Table Header -->
+                    <th></th>
+                    <!--Delete Table Header-->
+                    <th></th> 
                 </tr> 
             </thead> 
 
