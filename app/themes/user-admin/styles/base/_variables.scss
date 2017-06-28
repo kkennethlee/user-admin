@@ -11,8 +11,9 @@ $medium-blue:           #0f77bd;
 $lighter-blue:          lighten($dark-blue, 25%);
 $light-blue:            #1294ed; // #1294ed;
 $gray-blue:             #639DB2;
-$panel-gray:            #ecf0f1;
-$grey-dark:             #4d4d4d;
+$panel-gray:            #f5f5f5;
+$panel-gray-dark:       #e6e6e6;
+$grey-dark:             #dddddd; // #4d4d4d
 $brown:                 #8e400b;
 $orange:                #ed6b12;
 $red:                   #F52C06;
@@ -31,6 +32,7 @@ $nav-tabs:              $brand-primary;
 
 $navbar-default-bg:     $brand-primary;
 $navbar-inverse-bg:     $brand-primary;
+$navbar-links:          #ffffff;
 
 $state-success-bg:               $brand-success;
 $state-success-border:           $brand-success;
@@ -43,7 +45,6 @@ $state-warning-border:           $brand-warning;
 
 $state-danger-bg:                $brand-danger;
 $state-danger-border:            $brand-danger;
-
 
 //** Global textual link color
 $link-color:                     $brand-link;

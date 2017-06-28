@@ -1,11 +1,9 @@
 User Admin
 ==========
 
-[![Package version](https://img.shields.io/packagist/v/erdiko/user-admin.svg?style=flat-square)](https://packagist.org/packages/erdiko/user-admin) [![Travis CI](https://travis-ci.org/Erdiko/user-admin.svg?branch=master)](https://travis-ci.org/Erdiko/user-admin) [![License](https://poser.pugx.org/erdiko/user-admin/license)](https://packagist.org/packages/erdiko/user-admin)
+[![Package version](https://img.shields.io/packagist/v/erdiko/user-admin.svg?style=flat-square)](https://packagist.org/packages/erdiko/user-admin) [![CircleCI](https://img.shields.io/circleci/project/github/Erdiko/user-admin/develop.svg?style=flat-square)](https://circleci.com/gh/Erdiko/user-admin) [![license](https://img.shields.io/github/license/erdiko/user-admin.svg?style=flat-square)](https://github.com/Erdiko/user-admin/blob/master/LICENSE)
 
-Goal: A fully functional and modular user management system with an Angular 2 UI.
-
-**Note this is an active development project and not quite ready for production yet**
+A fully functional and modular user management system with an Angular 2 UI and PHP backend.
 
 It is based on a few erdiko packages (authorize, authenticate, and users) as well as the [Angular CLI](https://github.com/angular/angular-cli) project.
 
@@ -27,7 +25,7 @@ Installation
 
 ##### Note about versions
 
-Since this project is still under heavy development we recommend running the latest from the develop branch.  If you would like to tell composer to use the develop branch use this command instead of the one above. 
+Since this project is still under heavy development we recommend running the latest from the develop branch.  If you would like to tell composer to use the develop branch use this command instead of the one above.
 
 `composer create erdiko/user-admin:dev-develop [PROJECT NAME]`
 
@@ -51,7 +49,7 @@ Check the users README if you need more information [https://github.com/Erdiko/u
 
 #### View your new project in your browser
 
-[http://docker.local:8088/](http://docker.local:8088/)
+[http://erdiko.local/](http://erdiko.local/)
 
 
 Editing & Compiling the Angular Code
@@ -72,18 +70,10 @@ Editing and compiling the Angular code is simple, and we use Angular CLIs test s
 * Compile and export files for end user: `npm run build`
 
 
-Local Development
------------------
+Contributing to Erdiko User Admin
+---------------------------------
 
-To set your environment up for local development, please follow these steps:
-
-* Clone your fork of the User Admin project into a local directory
-* Clone the following packages into the same directory
-  * [Authenticate](https://github.com/Erdiko/authenticate)
-  * [Authorize](https://github.com/Erdiko/authorize)
-  * [Users](https://github.com/Erdiko/users)
-* Copy the `composer-dev.json` file to `composer.json`
-* Start your docker container `docker-composer up --build`
+To set up your environment for local development to contribute to the project please take a look at CONTRIBUTING.md.  That file has all the instructions on how to set up a development environment with Docker.  We've included some useful scripts in the scripts/dev folder to help.
 
 
 Special Thanks
